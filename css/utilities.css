@@ -1,0 +1,29 @@
+.padding-sm {
+  padding: 3rem 8rem;
+}
+
+.cta:link,
+.cta:visited {
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  transition: all 0.3s;
+}
+
+.cta:hover,
+.cta:active {
+  background-color: rgba(42, 207, 207, 0.5);
+}
+
+@media (max-width: 64em) {
+  .padding-sm {
+    padding: 3rem 6rem;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .padding-sm {
+    padding: 3rem 4rem;
+  }
+}
